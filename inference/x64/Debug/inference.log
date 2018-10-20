@@ -1,0 +1,20 @@
+﻿  inference.cpp
+d:\opensource\install\tensorflow\include\tensorflow\core\platform\default\string_coding.h(44): warning C4267: 'argument': conversion from 'size_t' to 'tensorflow::uint32', possible loss of data
+d:\opensource\install\tensorflow\include\unsupported\eigen\cxx11\src\tensor\tensor.h(76): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+  d:\opensource\install\tensorflow\include\unsupported\eigen\cxx11\src\tensor\tensormap.h(31): note: see reference to class template instantiation 'Eigen::Tensor<T,1,1,int>' being compiled
+          with
+          [
+              T=float
+          ]
+  d:\opensource\install\tensorflow\include\tensorflow\core\framework\tensor_types.h(105): note: see reference to class template instantiation 'Eigen::TensorMap<Eigen::Tensor<T,1,1,int>,16,Eigen::MakePointer>' being compiled
+          with
+          [
+              T=float
+          ]
+d:\opensource\install\tensorflow\include\tensorflow\core\framework\node_def_util.h(120): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+d:\opensource\install\tensorflow\include\tensorflow\core\lib\core\arena.h(46): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+d:\opensource\install\tensorflow\include\tensorflow\core\graph\graph.h(480): warning C4244: 'return': conversion from 'const tensorflow::int64' to 'int', possible loss of data
+d:\opensource\install\tensorflow\include\tensorflow\core\graph\graph.h(485): warning C4244: 'return': conversion from 'tensorflow::int64' to 'int', possible loss of data
+d:\opensource\install\tensorflow\include\tensorflow\core\graph\graph.h(521): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+d:\opensource\install\tensorflow\include\tensorflow\core\graph\graph.h(530): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  inference.vcxproj -> D:\DEVELOPMENT\MACHINE_LEARNING\DeepOCR\inference_VS2017\inference\x64\Debug\inference.exe
